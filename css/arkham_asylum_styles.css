@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0A1100;
+}
+
+/*Para clases en general*/
+h1 {
+    color: #E7E70C;
+    font-size: 4.5em;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    color: #95A5A6;
+    font-size: 3.3em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: #CDCDCD;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/*Para el menú de navegación o navbar*/
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: #E7E70C;
+    font-size: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-horizontal>li:hover {
+    background-color: white;
+}
+
+/*Clase "container"*/
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.container img {
+    padding-bottom: 15px;
+    padding-top: 12px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+/*Class content-sinopsis*/
+.content-sinopsis {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #5D4F00;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    color: #CDCDCD;
+    border: 6px solid #95A5A6;
+}
+
+.content-sinopsis img {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.content-sinopsis p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*Class content-personajes*/
+.content-personajes {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #376426;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    color: #CDCDCD;
+    border: 6px solid #95A5A6;
+}
+
+.content-personajes p {
+    font-size: 27px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.left-img {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.right-img {
+    width: 35%;
+    float: right;
+    margin-left: 60px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+/*Clase "content-curiosidades"*/
+.content-curiosidades {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #424552;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    color: #cdcdcd;
+    border: 6px solid #95A5A6;
+}
+
+.content-curiosidades>ul>li {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.footer p {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    text-align: center;
+}

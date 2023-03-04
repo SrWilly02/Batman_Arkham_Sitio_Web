@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*Para el título*/
+h1 {
+    color: #E7E70C;
+    font-size: 4.5em;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    color: #B60000;
+    font-size: 3.3em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.title-city {
+    font-size: 60px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #413b3b;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/*Para el menú de navegación o navbar*/
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: #E7E70C;
+    font-size: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-horizontal>li:hover {
+    background-color: white;
+}
+
+/*Clase container*/
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.container img {
+    padding-top: 12px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(5, 5, 5, .5);
+}
+
+/*Clase contentsinopsis-city*/
+.content-sinopsis-city {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #c0c0c0;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    border: 6px solid #810101;
+}
+
+.content-sinopsis-city img {
+    width: 55%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.content-sinopsis-city p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*Clase content-personajes-city*/
+.content-personajes-city {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #c20e0e;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    color: #CDCDCD;
+    border: 6px solid #810101;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-family: 'Tilt Neon', cursive;
+    color: #E5E5E5;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.content-personajes-city p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.title-city-personajes {
+    font-size: 60px;
+    font-family: 'Signika Negative', sans-serif;
+    color: #F1F1F1;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.left-img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.right-img {
+    width: 23%;
+    float: right;
+    margin-left: 60px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+/*Clase content-curiosidades-city*/
+.content-curiosidades-city {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #d1c1c1;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: 6px solid #810101;
+}
+
+.content-curiosidades-city>ul>li {
+    font-size: 23px;
+    text-align: justify;
+}
+
+.footer p {
+    padding-top: 10px;
+    color: black;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    text-align: center;
+}

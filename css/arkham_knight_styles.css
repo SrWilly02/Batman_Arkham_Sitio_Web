@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/*Para el título*/
+h1 {
+    color: #E7E70C;
+    font-size: 4.5em;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    color: #E7E70C;
+    font-size: 3.3em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.title-knight {
+    font-size: 60px;
+    font-family: 'Varela Round', sans-serif;
+    color: yellow;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.left-img {
+    width: 28%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(5, 3, 87);
+}
+
+.right-img {
+    width: 28%;
+    float: right;
+    margin-left: 60px;
+    margin-top: 30px;
+    border: 3px solid rgb(5, 3, 87);
+}
+
+/*Para el menú de navegación o navbar*/
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: #E7E70C;
+    font-size: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-horizontal>li:hover {
+    background-color: white;
+}
+
+/*Para la imagen*/
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.container img {
+    padding-top: 15px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+/*Clase content-sinopsis-knight*/
+.content-sinopsis-knight {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #494949;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    border: 6px solid #eeff00;
+}
+
+.content-sinopsis-knight img {
+    width: 55%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(5, 3, 87);
+}
+
+.content-sinopsis-knight p {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Source Serif Pro', serif;
+}
+
+/*Clase content-personajes-knight*/
+.content-personajes-knight {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #082444;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    border: 6px solid #eeff00;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-family: 'Phudu', cursive;
+    color: #E5E5E5;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.content-personajes-knight p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+/*Clase content-curiosidades-knight*/
+.content-curiosidades-knight {
+    width: 95vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 30px;
+    background: #24495e;
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+    color: #c7c7c7;
+    border: 6px solid #eeff00;
+}
+
+.content-curiosidades-knight>ul>li {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.footer p {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    text-align: center;
+}

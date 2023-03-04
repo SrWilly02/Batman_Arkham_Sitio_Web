@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/*Para el título*/
+h1 {
+    color: #E7E70C;
+    font-size: 4.5em;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+/*Para el menú de navegación o navbar*/
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: #E7E70C;
+    font-size: 20px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-horizontal>li:hover {
+    background-color: white;
+}
+
+/*Imagen del contenido*/
+.container {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+img {
+    padding-top: 15px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+/*Para los párrafos de texto*/
+.welcome-text p {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    text-align: center;
+}
