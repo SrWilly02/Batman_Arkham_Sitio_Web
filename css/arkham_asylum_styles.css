@@ -27,7 +27,7 @@ h2 {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 3rem;
     font-family: 'Playfair Display', serif;
     color: #CDCDCD;
     text-align: left;
@@ -40,7 +40,7 @@ nav {
     max-width: 100%;
     margin: auto;
     background-color: #E7E70C;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .menu-horizontal {
