@@ -11,7 +11,7 @@ body {
 /*Para clases en general*/
 h1 {
     color: #E7E70C;
-    font-size: 4.5em;
+    font-size: 3rem;
     text-align: center;
     background-color: black;
     font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     color: #95A5A6;
-    font-size: 3.3em;
+    font-size: 2.3rem;
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
