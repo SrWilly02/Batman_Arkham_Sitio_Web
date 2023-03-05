@@ -120,7 +120,7 @@ nav {
 }
 
 .content-personajes p {
-    font-size: 27px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: left;
     margin-bottom: 20px;
@@ -128,7 +128,7 @@ nav {
 }
 
 .subtitle {
-    font-size: 45px;
+    font-size: 3rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     text-align: left;
@@ -167,7 +167,7 @@ nav {
 }
 
 .content-curiosidades>ul>li {
-    font-size: 30px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
