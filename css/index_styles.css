@@ -11,7 +11,7 @@ body {
 /*Para el título*/
 h1 {
     color: #E7E70C;
-    font-size: 4.5em;
+    font-size: 70px;
     text-align: center;
     background-color: black;
     font-weight: bold;
@@ -64,7 +64,7 @@ img {
     padding-top: 10px;
     color: white;
     font-family: 'Shantell Sans', cursive;
-    font-size: 20px;
+    font-size: 34px;
     text-align: center;
 }
 
