@@ -11,7 +11,7 @@ body {
 /*Para el título*/
 h1 {
     color: #E7E70C;
-    font-size: 4.5em;
+    font-size: 3rem;
     text-align: center;
     background-color: black;
     font-weight: bold;
@@ -27,7 +27,7 @@ h2 {
 }
 
 .title-knight {
-    font-size: 60px;
+    font-size: 3rem;
     font-family: 'Varela Round', sans-serif;
     color: yellow;
     text-align: left;
@@ -56,7 +56,7 @@ nav {
     max-width: 100%;
     margin: auto;
     background-color: #E7E70C;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .menu-horizontal {
@@ -115,7 +115,7 @@ nav {
 }
 
 .content-sinopsis-knight p {
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: justify;
     font-family: 'Source Serif Pro', serif;
@@ -136,7 +136,7 @@ nav {
 }
 
 .subtitle {
-    font-size: 26px;
+    font-size: 3rem;
     font-family: 'Phudu', cursive;
     color: #E5E5E5;
     text-align: left;
@@ -145,7 +145,7 @@ nav {
 }
 
 .content-personajes-knight p {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: left;
     margin-bottom: 20px;
@@ -168,7 +168,7 @@ nav {
 }
 
 .content-curiosidades-knight>ul>li {
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
@@ -176,6 +176,6 @@ nav {
     padding-top: 10px;
     color: white;
     font-family: 'Shantell Sans', cursive;
-    font-size: 15px;
+    font-size: 0.7rem;
     text-align: center;
 }
