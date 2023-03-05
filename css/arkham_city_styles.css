@@ -11,7 +11,7 @@ body {
 /*Para el título*/
 h1 {
     color: #E7E70C;
-    font-size: 4.5em;
+    font-size: 3rem;
     text-align: center;
     background-color: black;
     font-weight: bold;
@@ -20,14 +20,14 @@ h1 {
 
 h2 {
     color: #B60000;
-    font-size: 3.3em;
+    font-size: 2.3rem;
     text-align: center;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
 }
 
 .title-city {
-    font-size: 60px;
+    font-size: 3rem;
     font-family: 'Signika Negative', sans-serif;
     color: #413b3b;
     text-align: left;
@@ -40,7 +40,7 @@ nav {
     max-width: 100%;
     margin: auto;
     background-color: #E7E70C;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .menu-horizontal {
@@ -99,7 +99,7 @@ nav {
 }
 
 .content-sinopsis-city p {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: justify;
 }
@@ -119,7 +119,7 @@ nav {
 }
 
 .subtitle {
-    font-size: 26px;
+    font-size: 3rem;
     font-family: 'Tilt Neon', cursive;
     color: #E5E5E5;
     text-align: left;
@@ -128,7 +128,7 @@ nav {
 }
 
 .content-personajes-city p {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: left;
     margin-bottom: 20px;
@@ -137,7 +137,7 @@ nav {
 }
 
 .title-city-personajes {
-    font-size: 60px;
+    font-size: 3rem;
     font-family: 'Signika Negative', sans-serif;
     color: #F1F1F1;
     text-align: left;
@@ -176,7 +176,7 @@ nav {
 }
 
 .content-curiosidades-city>ul>li {
-    font-size: 23px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
